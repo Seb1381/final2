@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product</title>
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="direction: rtl;">
+    <nav id="navbar">
+        <div class="items">
+            <div class="">behdars</div>
+            <div class="">hame chi</div>
+            <div class="search">
+                <i class="	fa fa-search"></i>
+                <input type="text" id="searchbar" placeholder="search" onkeydown="search()" onblur="close()">
+            </div>
+            <div class="">tadris</div>
+            <div class="">log in /sign up</div>
+        </div>
+    </nav>
+
+    <div id="list">
+        <div class="animals"></div>
+        <div class="animals"></div>
+        <div class="animals"></div>
+    </div>
+
+    <div  id="hero" class="hero">
+        <div id="name" class="name">
+            <div class="mark">
+                <div class="target"><h3><a href="">خانه / </a></h3></div>
+                <div class="target"><h3><a href="">آموزش‌ها / </a></h3></div>
+                <div class="target"><h3 style="font-weight: bolder; cursor: default;">آموزش برنامه نویسی پی اچ پی PHP</h3></div>
+            </div>
+        </div>
+        <div id="bookmarks" class="bookmarks">
+            <div class="mark">
+                <div class="target"><h3><a href="#target1" onclick="move()">مشخصات آموزش</a></h3></div>
+                <div class="target"><h3><a href="#target2">پیش‌نمایش</a></h3></div>
+                <div class="target"><h3><a href="#nazarat">نظرات  <span style="color: grey;">(۲۲۴ نظر)</span></a></h3></div>
+            </div>
+        </div>
+        
+        <div class="left" id="left">
+            <h2>آموزش برنامه نویسی پی اچ پی PHP</h2>
+            <div class="price">
+                <p style="font-weight: bolder;">هزینه آموزش</p>
+                <p style="text-decoration: line-through;">۳۵۹,۰۰۰ تومان</p>
+            </div>
+            <div class="sale">
+                <p >تخفیف<span style="color: red;">۵۰ درصدی</span></p>
+                <p style="color: red;">۱۷۹۵۰۰ تومان</p>
+            </div>
+            <a href="">(اطلاعات بیشتر +)</a>
+            <div class="time">
+                <div class="countdown">
+                    <i class="fa fa-heart"></i>
+                    <p>
+                        <span id="DAY"></span>
+                        2:
+                        <span id="HOUR"></span>
+                        5:
+                        <span id="MIN"></span>
+                        :
+                        <span id="SEC"></span>
+                    </p>
+                </div>
+            </div>
+            <div class="purchase">
+                <button id="buy">
+                    <i class="fa fa-heart"></i>
+                    <p>افزودن به سبد سفارش</p>
+                </button>
+                <div class="like">
+                    <div class="ghalb"><p>افزودن به علاقه‌مندی‌</p></div>
+                    <div class="tri">a</div>
+                    <i class="fa fa-heart-o"></i>
+                </div>
+            </div>
+
+            <div class="price" style="margin-top: 2vh;">
+                <p style="font-weight: bolder;">تعداد دانشجو</p>
+                <p>۱۸,۱۰۱ نفر</p>
+            </div>
+            <div class="sale">
+                <p style="font-weight: bolder;">مدت زمان</p>
+                <p>۲۸ ساعت و ۳۱ دقیقه</p>
+            </div>
+        </div>
+    
+    <div class="container" id="container " >
+    <div class="right" >
+        <div class="video" >
+            <iframe  src="https://freebies.faradars.org/video/fvrphp101/720/fvrphp101_00_intro.mp4" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="tozih" style="background-color: burlywood;" id="target1">
+            <h1>توضیحات</h1>
+            <h2>زبان برنامه‌نویسی PHP چیست؟</h2>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Ipsam odit praesentium deleniti, esse illum, non, nulla be
+            atae asperiores quibusdam rerum id qui. Totam officia rem s
+            oluta minus sunt dolorum maiores?
+            Lorem ipsum dolor sit amet consectetur, adipisicing
+             elit. Rerum iure laborum aperiam cum aliquid non repudi
+             andae velit labore deleniti dolorem, ipsam tempora, qua
+             m distinctio necessitatibus facilis animi nobis ea rem?
+             Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+             Ipsam odit praesentium deleniti, esse illum, non, nulla be
+             atae asperiores quibusdam rerum id qui. Totam officia rem s
+             oluta minus sunt dolorum maiores?
+             Lorem ipsum dolor sit amet consectetur, adipisicing
+              elit. Rerum iure laborum aperiam cum aliquid non repudi
+              andae velit labore deleniti dolorem, ipsam tempora, qua
+              m distinctio necessitatibus facilis animi nobis ea rem?
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+              Ipsam odit praesentium deleniti, esse illum, non, nulla be
+              atae asperiores quibusdam rerum id qui. Totam officia rem s
+              oluta minus sunt dolorum maiores?
+              Lorem ipsum dolor sit amet consectetur, adipisicing
+               elit. Rerum iure laborum aperiam cum aliquid non repudi
+               andae velit labore deleniti dolorem, ipsam tempora, qua
+               m distinctio necessitatibus facilis animi nobis ea rem?
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+               Ipsam odit praesentium deleniti, esse illum, non, nulla be
+               atae asperiores quibusdam rerum id qui. Totam officia rem s
+               oluta minus sunt dolorum maiores?
+               Lorem ipsum dolor sit amet consectetur, adipisicing
+                elit. Rerum iure laborum aperiam cum aliquid non repudi
+                andae velit labore deleniti dolorem, ipsam tempora, qua
+                m distinctio necessitatibus facilis animi nobis ea rem?
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Ipsam odit praesentium deleniti, esse illum, non, nulla be
+                atae asperiores quibusdam rerum id qui. Totam officia rem s
+                oluta minus sunt dolorum maiores?
+                Lorem ipsum dolor sit amet consectetur, adipisicing
+                 elit. Rerum iure laborum aperiam cum aliquid non repudi
+                 andae velit labore deleniti dolorem, ipsam tempora, qua
+                 m distinctio necessitatibus facilis animi nobis ea rem?
+        </div>
+
+
+        <div class="mohtava">
+            <div class="in"><h1>محتوای این آموزش</h1></div>
+            <div class="felan">
+                <div class="chiz"><i class="fa fa-search"></i><p>pdf file o chert</p></div>
+                <div class="chiz"><i class="fa fa-search"></i><p>pdf file o chert</p></div>
+                <div class="chiz"><i class="fa fa-search"></i><p>pdf file o chert</p></div>
+                <div class="chiz"><i class="fa fa-search"></i><p>dfghjyhtgrgrhj</p></div>
+            </div>
+        </div>
+
+        <div class="modares">
+            <img src="9253530.jpg" alt="">
+            <div class="darbare">
+                <h2>salam</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Cum est iste quos ipsa sunt, amet vero officiis, ratione 
+                    harum consectetur totam asperiores voluptatem eligendi n
+                    eque. Repellat nemo mollitia nam saepe?</p>
+            </div>
+        </div>
+
+        <div class="tozih2" id="targeta">
+            <div class="fehrest">
+                <h1>فهرست سرفصل‌ها و رئوس مطالب مطرح شده در اين مجموعه آموزشی، در ادامه آمده است:</h1>
+                <ul><h3>درس یکم: آشنایی با زبان برنامه نویسی PHP</h3>
+                    <li>تاریخچه زبان برنامه نویسی PHP</li>
+                    <li>بررسی نحوه عملکرد و اجرای یک برنامه PHP</li>
+                    <li>نصب XAMPP برای راه اندازی سرور محلی (Local Host)</li>
+                    <li>پیاده سازی و اجرای نخستین برنامه PHP</li>
+                    <li>آشنایی با شبه تابع echo</li>
+                    <li>نصب محیط توسعه (IDE) نت بینز (NetBeans) برای توسعه برنامه های PHP</li>
+                    <li>نحوه لینک بین XAMPP و NetBeans</li>
+                    <li>توسعه برنامه ابتدایی نوشته شده با PHP</li>
+                    <li>فراخوانی تابع phpinfo برای دریافت اطلاعات سرور و ماژول PHP در سرور</li>
+                    <li>تگ های php برای تلفیق HTML و PHP</li>
+                    <li>نحوه درج توضیح یا کامنت در برنامه های PHP</li>
+                </ul>
+
+                <ul><h3>درس دوم: متغیرها، انواع داده ها و ثوابت</h3>
+                    <li>متغیرها و کاربردهای آن ها</li>
+                    <li>انواع داده ها در PHP</li>
+                    <li>توابع مربوط به تشخیص نوع توابع</li>
+                    <li>تشخیص متغیرهای خالی</li>
+                    <li>تشخیص متغیرهای تعریف شده</li>
+                    <li>نمایش جزئیات یک متغیر در مرورگر</li>
+                    <li>تبدیل انواع یا Type Casting</li>
+                    <li>عملگرها</li>
+                    <ul>
+                        <li>عملگرهای محاسباتی</li>
+                        <li>عملگرهای تخصیص و مقداردهی</li>
+                        <li>عملگرهای کاهش و افزایش</li>
+                        <li>عملگرهای رشته های کاراکتری</li>
+                        <li>عملگرهای رابطه ای و قیاسی</li>
+                        <li>عملگرهای منطقی</li>
+                        <li>عملگرهای بیتی</li>
+                        <li>عملگر شرطی و حالات مختلف آن</li>
+                        <li>عملگرهای جدید در PHP 7</li>
+                    </ul>
+                    <li>اولویت عملگرها در PHP</li>
+                    <li>تعریف مقادیر ثابت (Constants) در PHP</li>
+                </ul>
+
+                <ul><h3>درس سوم: ساختارهای کنترل برنامه - عبارات شرطی و تصمیم گیری
+                </h3>
+                    <li>دستور if و حالات مختلف آن</li>
+                    <li>دستور switch و حالات آن</li>
+                    <li>پیاده سازی مثال های مختلف برای نمایش کاربرد ساختارهای شرطی و تصمیم گیری</li>
+                </ul>
+
+                <ul><h3>درس چهارم: ساختارهای کنترل برنامه - حلقه های تکرار</h3>
+                    <li>حلقه تکرار while برای پیاده سازی تکرار نامشخص و/یا نامحدود</li>
+                    <li>حلقه تکرار do-while برای پیاده سازی حلقه با حداقل یک اجرا</li>
+                    <li>حلقه تکرار for برای پیاده سازی حلقه های مشخص و/یا محدود</li>
+                    <li>پیاده سازی مثال های مختلف برای نمایش کاربرد ساختارهای تکرار</li>
+                </ul>
+            </div>
+        </div>
+
+            <div class="pishniaz">
+                <h1>پیش نیاز</h1>
+                <div class="pish">
+                    <i class="fa fa-search"></i><a href="">آموزش اصول و مبانی برنامه نویسی – (رایگان)</a>
+                </div>
+                <div class="pish">
+                    <i class="fa fa-search"></i><a href="">آموزش اچ تی ام ال - طراحی وب با HTML - مقدماتی</a>
+                </div>
+                <div class="pish">
+                    <i class="fa fa-search"></i><a href="">آموزش سی اس اس - طراحی وب با CSS - مقدماتی</a>
+                </div>
+            </div>
+
+            
+            <div class="mortabet">
+                <h1>نرم افزارهای مرتبط با آموزش</h1>
+                <i class="fa fa-search"></i>
+                <p>
+                    نرم افزار JRE: جهت اجرای نرم افزارها و ابزارهای تحت وب که به زبان برنامه نویسی جاوا ساخته شده اند شما نیاز به نصب نرم افزار Java SE Runtime Environment دارید تا بتوانید از آن ها استفاده کنید. جهت دانلود نسخه 8 این نرم افزار به این لینک (+)، جهت دانلود نسخه 7 این نرم افزار به این لینک (+) و جهت دانلود نسخه مک این نرم افزار به این لینک (+) مراجعه کنید.
+                </p>
+                <!-- <br> -->
+                <p>
+                    نرم افزار JDK: نرم افزار Java Development Kit یا JDK مجموعه ای از ابزارهای برنامه نویسی جهت ساخت و توزیع نرم افزارها و بازی های جاوا می باشد. جهت دانلود نسخه 8 این نرم افزار به این لینک (+)، جهت دانلود نسخه 7 این نرم افزار به این لینک (+) و جهت دانلود نسخه مک این نرم افزار به این لینک (+) مراجعه کنید.
+                </p>
+                <!-- <br> -->
+                <p>
+                    نرم افزار NetBeans IDE : یک محیط توسعه یافته یکپارچه منبع باز و رایگان را برای توسعه دهندگان نرم افزار فراهم می کند. برای دانلود این نرم افزار می توانید به این لینک (+) و جهت دانلود نسخه مک این نرم افزار به این لینک (+) مراجعه کنید.
+                </p>
+                <!-- <br> -->
+                <p>
+                    نرم افزار XAMPP: با استفاده از این نرم افزار می توانید صفحات وب خود را براحتی و بدون نیاز به اینترنت آزمایش کنید.در واقع این نرم افزار به عنوان یک وب سرور کمکی است که برای طراحی و تعمیرات وب سایت ها، به کار می رود. به منظور دانلود این نرم افزار می توانید به این لینک (+)، و جهت دانلود نسخه مک این نرم افزار به این لینک (+)،مراجعه کنید.
+                </p>
+            </div>
+
+            <div class="toggle" id="target2">
+                <h1>پیش نمایش‌ها</h1>
+                    <button type="button" class="collapsible"><p>آشنایی با زبان برنامه نویسی PHP</p></button>
+
+                    <div class="content">
+                      <iframe src="https://freebies.faradars.org/video/fvrphp101/720/fvrphp101_01_free.mp4" frameborder="0"></iframe>
+                    </div>
+
+                    <button type="button" class="collapsible"><p>متغیرها، انواع داده ها و ثوابت در PHP </p></button>
+
+                    <div class="content">
+                      <iframe src="https://freebies.faradars.org/video/fvrphp101/720/fvrphp101_02_free.mp4" frameborder="0"></iframe>
+                    </div>
+
+                    <button type="button" class="collapsible"><p>عبارات شرطی و تصمیم گیری در P</p></button>
+
+                    <div class="content">
+                      <iframe src="https://freebies.faradars.org/video/fvrphp101/720/fvrphp101_03_trial.mp4" frameborder="0"></iframe>
+                    </div>
+
+                    <button type="button" class="collapsible"><p> حلقه های تکرار در P </p></button>
+
+                    <div class="content">
+                      <iframe src="https://freebies.faradars.org/video/fvrphp101/720/fvrphp101_04_trial.mp4" frameborder="0"></iframe>
+                    </div>
+            </div>
+            <div class="yellow">
+                <p>این آموزش شامل <span style="font-weight: bolder;">۳۱ جلسه </span>ویدئویی با مجموع ۲۸<span style="font-weight: bolder;"> ساعت و ۳۱ دقیقه</span> است.</p>
+                <p>با تهیه این آموزش، می‌توانید به <span style="font-weight: bolder;">همه بخش‌ها و جلسات آن</span>، دسترسی داشته باشید.</p>
+            </div>
+
+            <div class="mortabet">
+                <h1>آموزش‌های مرتبط با آموزش برنامه نویسی پی اچ پی PHP</h1>
+                <div class="amoozesh">
+                    <div class="dars">
+                        <img src="ai.webp" alt="">
+                        <p>آموزش مبانی محاسبات تکاملی و بهینه سازی هوشمند</p>
+                    </div>
+
+                    <div class="dars">
+                        <img src="c3.webp" alt="">
+                        <p>آموزش طراحی وب با سی اس اس CSS3 – تکمیلی</p>
+                    </div>
+
+                    <div class="dars">
+                        <img src="pand.webp" alt="">
+                        <p>آموزش پانداس pandas برای تحلیل اطلاعات در پایتون</p>
+                    </div>
+
+                    <div class="dars">
+                        <img src="py.webp" alt="">
+                        <p>آموزش برنامه نویسی پایتون + مثال های عملی در Python</p>
+                    </div>
+
+                    <div class="dars">
+                        <img src="sql.webp" alt="">
+                        <p>آموزش پایگاه داده MySQL مای اس کیو ال</p>
+                    </div>
+
+                    <div class="dars">
+                        <img src="wp.webp" alt="">
+                        <p> آموزش وردپرس WordPress برای راه اندازی سایت – مقدماتی</p>
+                    </div>
+                </div>
+            </div>
+           
+                <button type="button" class="collapsible" id="nazarat">
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-full"></i>
+                    </div>
+                    <div class="nazar">
+                        <i class="	fa fa-commenting"></i>
+                        <p>نظرات</p>
+                    </div>
+                    <div class="nafar">
+                        <h4>تاکنون ۲۳۰ نظر ثبت شده است.</h4>
+                    </div>
+                </button>
+
+                <div class="content">
+                    <div class="comment_section2">
+                        <div class="user_profile">
+                            <img src="john.jfif">
+                            <div class="user"><h4>رضا</h4> </div>
+                        </div>
+                        <div class="container2">
+                            <div class="cmnt"><p>آموزش بسیار عالی و بی نظیر. طوری درس میدن که هیچ جای دیگه ای ندیده بودم! واقعا تسلط بالایی دارن و همچنین هوش بالایی دارن.</p>
+                            </div>
+                            <h5>5 minutes ago</h5>
+                            <div class="response">
+                            <i class="	fa fa-reply"></i>
+                            <i class="	fa fa-thumbs-up"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment_section2">
+                        <div class="user_profile">
+                            <img src="john.jfif">
+                            <div class="user"><h4>سعیده</h4> </div>
+                        </div>
+                        <div class="container2">
+                            <div class="cmnt"><p>
+                                یک خط توضیح دادن بقیش مثال بود برای پیش نیاز لاراول خیلی عالیه. دست مریزاد داره.</p>
+                            </div>
+                            <h5>5 minutes ago</h5>
+                            <div class="response">
+                            <i class="	fa fa-reply"></i>
+                            <i class="	fa fa-thumbs-up"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment_section2">
+                        <div class="user_profile">
+                            <img src="john.jfif">
+                            <div class="user"><h4>امیرحسین</h4> </div>
+                        </div>
+                        <div class="container2">
+                            <div class="cmnt"><p>پیشنهاد میدم مثال های عملی رو بیشتر کنید تا کاربردی تر بشه.</p>
+                            </div>
+                            <h5>5 minutes ago</h5>
+                            <div class="response">
+                            <i class="	fa fa-reply"></i>
+                            <i class="	fa fa-thumbs-up"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="">مشاهده بیشتر</a>
+                </div>
+                <div class="about">
+                    <h3><span style="font-weight: bolder;">دسته‌بندی موضوعی</span>:<a href="">برنامه‌نویسی</a> | <a href="">برنامه‌نویسی وب</a> | <a href="">پی‌اچ‌پی</a></h3>
+                </div>
+
+                <div class="tags">
+                    <h1>برچسب‌ها:</h1>
+                    <p>__CLASS__|__DIR__|__FILE__|__FUNCTION__|__LINE__|__METHOD__|__NAMESPACE__|
+                        Apache|array_map|Bootstrap|Cross-Site Scripting|CRUD|database|Flat File|
+                        Flat File Database|Flint Stone|FlintStone|Headers|Htaccess|multiclass|mysql|
+                        mysqli|Navigation|NetBeans|Output Buffering|PDO|PHP Data Object|PhpMyAdmin|Query|
+                        Raw MySQL|RTL|sql|sqlite|SQLite3|textarea|Twitter Bootstrap|XAMPP|XSS|XSS Attack|Yekan|
+                        آبجکت داده PHP|آخرین نسخه PHP|آر تی ال|آرایه سراسری $_COOKIE|آرایه سراسری $_GET|
+                        آرایه سراسری $_POST|آرایه سراسری $_REQUEST|آرایه سراسری $_SERVER|آرایه سراسری</p>
+                        <div class="content" style="display: inline; margin-top: 0;">
+                            <p>$_SESSION|آرایه ها در PHP|آموزش آخرین نسخه php|آموزش برنامه نویسی PHP|
+                                آموزش برنامه نویسی پی اچ پی|آموزش برنامه نویسی وب|اس کیو ال|اس کیو لایت|استرینگ در php|
+                                اسکیولایت
+                                |اشکال زدایی برنامه ها|اعتبار سنجی فرم ها|امن سازی ایمیل|امن سازی فرم|امن سازی فرم ها در php|
+                                انتقال اطلاعات میان صفحات وب|انواع داده در php|ایجاد تصویر در PHP|بافر خروجی|بافرینگ در php|
+                                برنامه Authentication|برنامه تصدیق هویت|برنامه نویسی PHP|برنامه نویسی پی اچ پی|برنامه نویسی پیمانه ای|برنامه نویسی سمت سرور|برنامه نویسی ماژولار
+                                |برنامه نویسی وب|بوت استرپ|پاسخ HTTP|پایگاه داده|پایگاه داده در PHP|پایگاه داده مبتنی بر فایل|پرس و جوی دیتابیس|پی اچ پی مای ادمین
+                                |پی دی او|پیمایش|تابع phpinfo|تاریخچه PHP|تاریخچه زبان برنامه نویسی PHP|تبدیل متن به عکس|ترکیب PHP و MySQL|
+                                تعریف تابع در php|تعریف ثابت ها در php|تعریف ثوابت در php|تعریف و ذخیره سازی کوکی در مرورگر کاربر|تقدم عملگرها در php|
+                                توئیتر بوت استرپ|حلقه تکرار|حلقه تکرار do-while|حلقه تکرار for|حلقه تکرار foreach در PHP|حلقه تکرار while|حمله XSS|
+                                خواندن و نوشتن فایل ها|درخواست HTTP|دریافت اطلاعات مربوط به درخواست وب|دریافت اطلاعات مربوط به سرور|دستور If|دستور switch|
+                                دستور throw در پی اچ پی|دستور try-catch-finally در php|دیتابیس|دیتابیس در PHP|راست به چپ|راست چین شده
+                                |رشته ها در php|روش ارسال GET|روش ارسال POST|زمپ|سرویس MySQL|سنگ چخماق
+                                |شروع بافر خروجی|شروع یک نشست کاری در php|طراحی وب|عبارات شرطی|عملگرها در php|فایل htaccess|
+                                فایل تنظیمات آپاچی|فرم های وب|فرم ورود کاربران در php|فلینت استون|قالب بوت استرپ
+                                |کادر متنی چند خطی|کار با تصاویر در PHP|کار با فایل ها در PHP|کاربرد cURL در ارسال اطلاعات
+                                |کاربرد cURL در برنامه نویسی وب|کاربرد MySQL در PHP|کتابخانه GD|کتابخانه توابع گرافیکی|کرود|کنترل textarea|
+                                کوئری|گرافیک در PHP|ماژول PHP|متغیرها در php|متغیرهای ایستا در php|متغیرهای سراسری در php|مدیریت Cookie|
+                                مدیریت Session|مدیریت آرایه ها در PHP|مدیریت پایگاه داده|مدیریت جلسه در php|مدیریت حالات استثنائی
+                                |مدیریت فایل ها و پوشه ها در PHP|مدیریت کوکی|مدیریت نشست در php|نت بینز
+                                |نصب سرور محلی|نوار پیمایش|هدرها|هدرهای HTTP|وب سرور Apache|وب سرور آپاچی</p>
+                        </div>
+                        <button type="button" class="collapse" onclick="changeText()" id="btn"><h2>مشاهده بیشتر</h2></button>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <footer id="footer">
+        <div class="contain">
+            <div class="foot">
+                <h3>dgdfga</h3>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+            </div>
+            <div class="foot">
+                <h3>dgdfga</h3>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+            </div>
+            <div class="foot">
+                <h3>dgdfga</h3>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+            </div>
+            <div class="line"></div>
+            <div class="foot">
+                <h3>dgdfga</h3>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+            </div>
+            <div class="foot">
+                <h3>dgdfga</h3>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+            </div>
+            <div class="foot">
+                <h3>dgdfga</h3>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="hearts">
+                <div class="bedars"><p>asdfghjklkjhreqwmdihwinruei</p></div>
+                <div class="links"><p>dhgdvqduqcbqjcbjnckjqwnfwkjf</p></div>
+            </div>
+            <div class="icons">
+                <i class="	fa fa-facebook"></i>
+                <i class="	fa fa-google-plus"></i>
+                <i class="	fa fa-pinterest-p"></i>
+                <i class="	fa fa-telegram"></i>
+                <i class=" 	fa fa-linkedin"></i>
+                <i>gfh</i>
+            </div>
+        </div>
+    </footer>
+    <script src="product.js"></script>
+</body>
+</html>

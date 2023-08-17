@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ثبت نام کاربران</title>
+    <link rel="stylesheet" href="signlogin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="">
+</head>
+<body class="Background_image">
+    <div class="container">
+        <div class="box">
+            <form>
+                <h1>ثبت نام کاربران</h1>
+               <fieldset>
+                <legend><label for="tel"></label>شماره همراه</legend>
+                <input type="tel" id="tel" placeholder=" &#x260F; شماره 10 رقمی                             -     -     (     ) 98+ ">
+               </fieldset>
+
+               <fieldset>
+                <legend><label for="username">نام کاربری</label></legend>
+                <input type="text" id="username" placeholder=" &#x263A; حداقل  شامل 6 حرف">
+               </fieldset>
+
+                <fieldset>
+                 <legend><label for="email">ایمل</label></legend>
+                <input type="email" id="email" placeholder="  &#9993 mail.com@ایمیل شما">
+                </fieldset>
+
+               <fieldset>
+                <legend><label for="password">گذرواژه</label></legend>
+                <input type="password" id="password1" placeholder="🔑 حداقل شامل8 حرف با یک یا چند رقم و علامت !@#$%&*">
+               </fieldset>
+
+               <fieldset>
+                <legend><label for="password">تکرار گذرواژه </label></legend>
+                <input type="password" id="password2" placeholder=" &#x2713; گذرواژهها باید مطابقت داشته باشد" >
+               </fieldset>
+
+                <a>فراموشی گذرواژه</a>
+
+                <div class="" style="margin-top: 2vh;">
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox" style=" display: inline;">مرابه خاطر بسپار</label>
+                </div>
+
+                <button value="submit" id="btn" type="button" onclick="valid()">تایید</button>
+
+                <div class="other"><p>&#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; 
+                    &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; 
+                    &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332;
+                    ورود از طریق&#x0332;&#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332;  
+                    &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332; &#x0332;
+                    &#x0332; &#x0332;&#x0332; &#x0332; &#x0332; &#x0332; &#x0332; 
+                </p></div>
+
+                <button value="submit"><i class="fa fa-google" style="color: blue;margin-left: 5%;"></i> حساب گوگل</button>
+                <button value="submit"><i class="fa fa-linkedin" style="color: blue;margin-left: 5%;"></i>حساب لینکدین</button>
+    
+                <hr style="width: 90%;">
+    
+                <a href="login.html">ورود کاربران</a>
+    
+            </form>
+        </div>
+    </div>
+    <script src="signlogin.js"></script>
+    <div class="popup" id="popup">
+
+        <div class="inside">
+            <i class="	fa fa-send-o"></i>
+            <h2> آیا از ثبت این اطلاعات اطمینان دارید؟</h2>
+        </div>
+
+        <div class="stuff">
+            <p>:شماره همراه</p>
+            <p>:نام کاربری</p>
+            <p>:ایمل</p>
+            <p>:گذرواژه</p>
+        </div>
+
+        <div class="info" id="check"></div>
+
+        <div class="btns">
+            <input type="button" value="بله" id="yes" type="button" onclick="welcome()">
+            <input type="button" value="خیر" id="no"  type="button" onclick="back()">
+        </div>
+    </div>
+    
+</body>
+</html>

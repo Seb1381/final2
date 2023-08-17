@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bedars</title>
+    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="direction: rtl;" >
+    <nav id="navbar">
+        <div class="items">
+            <div class="">behdars</div>
+            <div class="">hame chi</div>
+            <div class="search">
+                <i class="	fa fa-search"></i>
+                <input type="text" id="searchbar" placeholder="search">
+            </div>
+            <div class="">tadris</div>
+            <div class="">log in /sign up</div>
+        </div>
+    </nav>
+
+    <div class="menu">
+        <div class="prf">
+            <img src="richard.jpg" alt="">
+            <h4>Jane Doe</h4>
+            <h5>JaneDoe@gmail.com</h5>
+        </div>
+        <div class="infos">
+            <div class="myinfo"><i class="fa fa-google-plus"></i><h4> اطالعات کاربری</h4></div>
+            <div class="myinfo"><i class="fa fa-google-plus"></i><a href="amoozesh.html"><h4>اموزش های من</h4></a></div>
+            <div class="myinfo"><i class="fa fa-google-plus"></i><h4>ثبت نظر</h4></div>
+            <div class="myinfo"><i class="fa fa-google-plus"></i><h4>علاقه‌مندی‌ها و پیشنهادها</h4></div>
+            <div class="myinfo"><i class="fa fa-google-plus"></i><h4>تاریخچه سفارش‌ها</h4></div>
+            <div class="myinfo"><i class="fa fa-google-plus"></i><h4>تضمین کیفیت</h4></div>
+            <div class="myinfo"><i class="fa fa-google-plus"></i><h4>درخواست پشتیبانی</h4></div>
+            <div class="myinfo"><i class="fa fa-google-plus"></i><h4>خروج از حساب کاربری</h4></div>
+        </div>
+        <div class="wallet">
+            <div class="pool">
+                <h5>موجودی کیف پول</h5>
+                <h4>۰ تومان</h4>
+                <div class="money"><p>افزایش موجودی</p></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="information">
+            <div class="box">
+
+                <div class="stuff">
+                    <i class="fa fa-google-plus"></i>
+                    <h2>اطلاعات فردی</h2>
+                    <div class="key"><i class="fa fa-key"></i><p>تغییر رمز عبور</p></div>
+                </div>
+
+                <div class="box1">
+                    <div class="border">
+                        <div class="inputs">
+                            <label for="name">نام</label>
+                            <input type="text" name="name" id="name" placeholder="Jane">
+                        </div>
+                        <div class="inputs">
+                            <label for="lastname">نام خانوادگی</label>
+                            <input type="text" name="lastname" id="lastname" placeholder="Doe">
+                        </div>
+                        <div class="inputs">
+                            <label for="number">شماره موبایل</label>
+                            <input type="tel" name="number" id="number" placeholder="09112345678">
+                        </div>
+                        <div class="inputs">
+                            <label for="birthdate">تاریخ تولد</label>
+                            <input type="text" name="birthdate" id="birthdate" onfocus="(this.type='date')" placeholder="1320/06/08">
+                        </div>
+                        <div class="inputs">
+                            <label for="email">ایمیل</label>
+                            <input type="email" name="email" id="email" placeholder="JaneDoe@gmail.com">
+                        </div>
+                        <div class="inputs">
+                            <label for="">جنسیت</label>
+                            <select>
+                                <option value="0">جنسیت</option>
+                                <option value="1">مرد</option>
+                                <option value="2">زن</option>
+                                <option value="3">تمایلی ندارم</option>
+                            </select>
+                        </div>
+                        <div class="inputs">
+                            <label for="mellicode">کد ملی </label>
+                            <input type="number" name="mellicode" id="mellicode" placeholder="361">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stuff">
+                    <i class="fa fa-google-plus"></i>
+                    <h2>محل سکونت</h2>
+                </div>
+
+                <div class="box2">
+                    <div class="border">
+                        <div class="inputs">
+                            <label for="">استان</label>
+                            <select class="location" id="ostan" onchange="update()">
+                                <option value="">انتخاب استان</option>
+                                <option value="تهران">تهران</option>
+                                <option value="گیلان">گيلان</option>
+                            </select>
+                        </div>
+                        <div class="inputs">
+                            <label for="">شهر</label>
+                            <select class="location" id="shahr">
+                                <option value="">انتخاب شهر</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="stuff">
+                    <i class="fa fa-google-plus"></i>
+                    <h2>تحصیلات</h2>
+                </div>
+                <div class="box3" id="box3">
+                    <div class="border" id="border">
+                        <div class="inputs">
+                            <label for="school">نام موسسه/دانشگاه</label>
+                            <input type="text" name="school" id="school" placeholder="نام موسسه/دانشگاه خود را وارد کنید">
+                        </div>
+                        <div class="inputs">
+                            <label for="major">رشته تحصیلی</label>
+                            <input type="text" name="major" id="major" placeholder=" رشته تحصیلی خود را وارد کنید ">
+                        </div>
+                        <div class="inputs">
+                            <label for="">مقطع تحصیلی</label>
+                            <select>
+                                <option value="0"> انتخاب مقطع </option>
+                                <option value="1">دیپلم</option>
+                                <option value="2"> کاردانی</option>
+                                <option value="3">کارشناسی</option>
+                                <option value="4">کارشناس ارشد</option>
+                                <option value="5">دکترای حرفه‌ای</option>
+                                <option value="6">دکتری تخصصی</option>
+                                <option value="7">پسادکتری</option>
+                            </select>
+                        </div>
+                        <div class="inputs">
+                            <label for="startdate">تاریخ شروع</label>
+                            <input type="text" name="startdate" id="startdate" onfocus="(this.type='date')" placeholder="1397/01/01">
+                        </div>
+                        <div class="inputs">
+                            <label for="enddate">تاریخ پایان</label>
+                            <input type="text" name="enddate" id="enddate" onfocus="(this.type='date')">
+                        </div>
+                        <div class="inputs" id="mashghool">
+                            <input type="checkbox" name="mashghool" id="checkbox" onclick="block()">
+                            <label for="mashghool" id="check">مشغول به تحصیل</label>
+                        </div>
+                        <i class="fa fa-trash" id="trash" onclick="remove(this)"> </i>
+                    </div>
+                </div>
+
+                <button type="button" id="add" onclick="add()">+ افزودن تحصیلات</button>
+
+                <div class="stuff">
+                    <i class="fa fa-google-plus"></i>
+                    <h2>علاقه‌مندی‌ها</h2>
+                </div>
+
+                <div class="box4">
+                    <div class="border">
+                        <div class="likes">
+                            <h4>انتخاب دسته‌بندی مورد علاقه‌ شما</h4>
+                            <button class="like" type="button" onclick="select(this)">برنامه‌نویسی </button>
+                            <button class="like" type="button" onclick="select(this)">بورس و بازار سهام</button>
+                            <button class="like" type="button" onclick="select(this)">رباتیک</button>
+                            <button class="like" type="button" onclick="select(this)">نگارش آکادمیک</button>
+                            <button class="like" type="button" onclick="select(this)">اکسل</button>
+                            <button class="like" type="button" onclick="select(this)">طراحی و گرافیک</button>
+                            <button class="like" type="button" onclick="select(this)">برنامه‌نویسی وب</button>
+                            <button class="like" type="button" onclick="select(this)">وردپرس</button>
+                            <button class="like" type="button" onclick="select(this)">مهندسی صنایع</button>
+                            <button class="like" type="button" onclick="select(this)">فنی و مهندسی</button>
+                            <button class="like" type="button" onclick="select(this)">مهندسی مکانیک</button>
+                            <button class="like" type="button" onclick="select(this)">علوم کامپیوتر</button>
+                            <button class="like" type="button" onclick="select(this)">علوم انسانی</button>
+                            <button class="like" type="button" onclick="select(this)">مهندسی عمران</button>
+                            <button class="like" type="button" onclick="select(this)">مهندسی معماری</button>
+                            <button class="like" type="button" onclick="select(this)">مهندسی برق</button>
+                            <button class="like" type="button" onclick="select(this)">مهندسی کنترل</button>
+                            <button class="like" type="button" onclick="select(this)">استارتاپ و کسب و کار</button>
+                            <button class="like" type="button" onclick="select(this)">مهندسی نرم‌افزار</button>
+                            <button class="like" type="button" onclick="select(this)">آمار و داده‌کاوی</button>
+                            <button class="like" type="button" onclick="select(this)">هوش مصنوعی</button>
+                            <button class="like" type="button" onclick="select(this)">ریاضیات</button>
+                            <button class="like" type="button" onclick="select(this)">متلب و سیمیولینک</button>
+                            <button class="like" type="button" onclick="select(this)">هنر</button>
+                        </div>
+                    </div>
+                    <div class="btn">
+                        <button type="button" id="cancel" onclick="cancel()">انصراف</button>
+                        <button type="button" id="change" onclick="change()">اعمال تغییرات</button>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button class="backbtn">
+        <i class="arrow-up fa fa-arrow-circle-up" style="font-size: 45px;"></i>
+    </button>
+
+    <footer>
+        <div class="contain">
+            <div class="foot">
+                <h3>dgdfga</h3>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+            </div>
+            <div class="foot">
+                <h3>dgdfga</h3>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+            </div>
+            <div class="foot">
+                <h3>dgdfga</h3>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+            </div>
+            <div class="line"></div>
+            <div class="foot">
+                <h3>dgdfga</h3>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+            </div>
+            <div class="foot">
+                <h3>dgdfga</h3>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+            </div>
+            <div class="foot">
+                <h3>dgdfga</h3>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+                <h4>dgdfga</h4>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="hearts">
+                <div class="bedars"><p>asdfghjklkjhreqwmdihwinruei</p></div>
+                <div class="links"><p>dhgdvqduqcbqjcbjnckjqwnfwkjf</p></div>
+            </div>
+            <div class="icons">
+                <i class="	fa fa-facebook"></i>
+                <i class="	fa fa-google-plus"></i>
+                <i class="	fa fa-pinterest-p"></i>
+                <i class="	fa fa-telegram"></i>
+                <i class=" 	fa fa-linkedin"></i>
+                <i>gfh</i>
+            </div>
+        </div>
+    </footer>
+    <script src="profile.js"></script>
+</body>

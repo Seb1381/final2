@@ -1,0 +1,397 @@
+body{
+    background-color: rgb(248, 242, 242);
+}
+
+header{
+    width: 100%;
+    background-color: rgb(224, 206, 206);
+    color: rgb(19, 157, 157);
+    padding: 0.5vh;
+    box-sizing: border-box;
+    text-align: center;
+    z-index: 98;
+    display: block;
+}
+
+#header{
+    top:0; 
+    position: fixed;
+    width: 100%;
+}
+#close-button{
+    color: rgb(141, 79, 79);
+    background-color: aliceblue;
+    text-align: right;
+    float: right;
+    /* margin-right: 0; */
+}
+.timer{
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(40, 95, 143);
+    font-size: large;
+}
+.countdown{
+    direction: ltr;
+}
+nav{
+    background-color: black;
+    color: azure;
+    width: 100%;
+    padding: 1vh;
+    box-sizing: border-box;
+    position: sticky;
+    top:0; 
+    /* display: flex;
+    justify-content: space-around; */
+    z-index: 100;
+    font-size: large;
+    margin-top: 13vh;
+    display: inline-block;
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+}
+/* #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  } */
+.search{
+    /* display: flex;
+    align-items: center; */
+    position: relative;
+    border-radius: 50px;
+    border: 2px solid white;
+    width: 600px;
+    padding: 1.5vh;
+    box-sizing: border-box;
+}
+.search i{
+    position: absolute;
+    top: 25%;
+    right: 2.5%;
+}
+/* #searchbar::placeholder{
+    padding-right: 5vh;
+} */
+#searchbar{
+    direction: rtl;
+    background-color: transparent;
+    color: aqua;
+    margin-right: 5%;
+    border: none;
+    outline: none;
+}
+
+.hero{
+    width: 100%;
+    background-color: rgb(134, 123, 110);
+    /* height: 1700px; */
+    margin-top: 5vh;
+    display: block;
+    position: relative;
+    /* top: 0; */
+    
+}
+
+.right{
+    float: right;
+    width: 50%;
+    background-color: darkorchid;
+    padding: 1.5vh;
+    box-sizing: border-box;
+}
+
+.left{
+    height: 100%;
+    width: auto;
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    float: left;
+}
+
+.next{
+    width: 100%;
+    background-color: rgb(109, 143, 131);
+    height: 500px;
+    text-align: center;
+    float: left;
+    
+}
+
+.types{
+    background-color: aliceblue;
+    width: 35%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    
+}
+
+.which{
+    display: inline-block;
+    /* width: 40px; */
+    background-color: bisque;
+}
+
+button{
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.carousel{
+    width: 80%;
+    margin:auto;
+    /* align-content: center; */
+    background-color: bisque;
+    /* height: 100%; */
+    /* float: left; */
+    position: relative;
+    
+}
+.slides{
+    width: 100%;
+    background-color: darkgoldenrod;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    /* opacity: 0; */
+}
+.slides .box1{
+    background-color: rgb(204, 221, 156);
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 1vh auto;
+    padding: 1vh;
+    box-sizing: border-box;
+    /* display: inline-block; */
+}
+/* .slides2{
+    width: 100%;
+    background-color: rgb(11, 11, 184);
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.slides2 .box2{
+    background-color: rgb(122, 163, 9);
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 1vh auto;
+    padding: 1vh;
+    box-sizing: border-box;
+} */
+
+
+.arrow-left{
+    left: 1px;
+    top: 5vh;
+    color: orangered;
+    position: absolute;
+    font-size: 60px;
+}
+.arrow-right{
+    right: 1px;
+    top: 5vh;
+    color: orangered;
+    position: absolute;
+    font-size: 60px;
+}
+
+.arrow-left:hover, .arrow-right:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+.ma{
+    width: 100%;
+    padding: 3vh;
+    box-sizing: border-box;
+    background-color: palegoldenrod;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.num{
+    display: inline-block;
+    background-color: thistle;
+
+}
+.num h1{
+    color: rgb(41, 46, 44);
+    font-size: 45px;
+}
+
+.boxes{
+    width: 100%;
+    padding: 3vh;
+    box-sizing: border-box;
+    background-color: rgb(130, 44, 114);
+    /* height: 600px; */
+    text-align: right;
+}
+.grouped{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vh;
+}
+.boxes .group{
+    width: 90%;
+    margin: auto;
+    background-color: darkslategrey;
+}
+.boxes .box{
+    /* height: 400px; */
+    margin: auto;
+    background-color: rgb(173, 20, 20);
+}
+.b{
+    width: 300px;
+    background-color: blueviolet;
+    display: inline-block;
+    /* margin-right: 1px;
+    margin-top: 2px; */
+    text-align: right;
+    
+}
+.b .double{
+    margin-right: 10px;
+    background-color: bisque;
+    float: right;
+}
+
+.b img{
+    width: 100px;
+    float: right;
+    height: 100%;
+}
+
+.hero2{
+    width: 100%;
+    padding: 3vh;
+    box-sizing: border-box;
+    background-color: palegoldenrod;
+    /* height: 200px; */
+    /* float: left; */
+}
+.last{
+    width: 90%;
+    margin: auto;
+    background-color: hotpink;
+}
+.login{
+    width: 400px;
+    background-color: darkgray;
+    float: left;
+
+}
+.img2{
+    /* float: right; */
+}
+.img2 img{
+    width: 400px;
+    border-radius: 100%;
+    /* float: right; */
+}
+
+footer{
+    width: 100%;
+    background-color: beige;
+    float: left;
+    /* height: 700px; */
+}
+.contain{
+    width: 90%;
+    margin: auto;
+    background-color: darkseagreen;
+    display: flex;
+    justify-content: space-around;
+    padding: 3vh;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+}
+.foot{
+    
+}
+.line{
+    border-left: 1px solid black;
+    height: 350px;
+    /* margin: auto; */
+}
+.bottom{
+    width: 90%;
+    margin: auto;
+    padding: 3vh;
+    box-sizing: border-box;
+    background-color: tomato;
+    height: 100px;
+}
+.hearts{
+    background-color: bisque;
+    float: left;
+    display: block;
+}
+.icons{
+    background-color: rgb(211, 205, 197);
+    float: right;
+    font-size: 32px;
+}
+
+
+
+#list{
+    width: 500px;
+    background-color: lightgreen;
+    color: black;
+    position: fixed;
+    top:150px;
+    z-index: 1000;
+    right: 32%;
+}
+.animals p{
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+
+.backbtn{
+    border: 0;
+    width: 7%;
+    position:fixed ;
+    bottom: 10px;
+    right: 0px;
+    background-color:transparent;
+    cursor: pointer;
+    color: aqua;
+
+}
+
+@media screen and (min-width:300px) and (max-width: 800px) {
+    nav{
+        width: 100px;
+        /* padding: 1vh; */
+        /* box-sizing: border-box; */
+        position: fixed;
+        top:0; 
+        left: 0;
+        z-index: 100;
+        /* font-size: large; */
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+  }

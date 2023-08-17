@@ -1,0 +1,158 @@
+body{
+    background-color: antiquewhite;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+    /* display: flex; */
+    background-color: lightcyan;
+    padding: 3vh;
+    box-sizing: border-box;
+    direction: rtl;
+    justify-content: center;
+}
+
+.top{
+    background-color: lightslategrey;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 2vh;
+    border-bottom: 1px solid;
+}
+h3, h4, h5{
+    display: inline-block;
+}
+
+input{
+    display: inline-block;
+    margin-top: 1vh;
+    padding: 1vh;
+    box-sizing: border-box;
+    width: 30%;
+    background-color: rgb(226, 16, 16);
+    border-radius: 5px;
+}
+input[type=button]{
+    margin-right: 70%;
+    cursor: pointer;
+}
+label{
+    display: block;
+}
+textarea{
+    width: 100%;
+    margin-top: 1vh;
+    padding: 1vh;
+    box-sizing: border-box;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    direction: rtl;
+}
+
+.comment_section{
+    display: none;
+    width: 100%;
+    margin-top: 3vh;
+    background-color: yellow;
+}
+.comment_section2{
+    /* display: none; */
+    width: 100%;
+    margin-top: 3vh;
+    background-color: yellow;
+}
+.response{
+    float: left;
+    background-color: cornflowerblue;
+    margin-bottom: 0;
+    width: 9%;
+}
+.response i{
+    cursor: pointer;
+    font-size: 24px;
+    color: rgb(101, 230, 45);
+    background-color: transparent;
+    display: inline;
+    margin-right: 5%;
+}
+i:hover{
+    color: darkslateblue;
+}
+img{
+    border-radius: 100%;
+    height: 48px;
+    /* display: inline-block; */
+    float: right;
+    margin-top: 1vh;
+    margin-right: 2px;
+}
+.img2{
+    border-radius: 100%;
+    height: 60px;
+    /* display: inline-block; */
+    float: right;
+    margin-top: 1vh;
+    margin-left: 10px;
+}
+
+
+
+.user_profile{
+    /* float: left; */
+    /* background-color: blanchedalmond; */
+    display: block;
+}
+
+.user{
+    /* float: right; */
+    /* width: 80%; */
+    margin-left: 80px;
+    /* background-color: blue; */
+    height: 60px;
+}
+.user h4{
+    /* display: block; */
+    margin-bottom: 0%;
+    vertical-align: bottom;
+    color: sandybrown;
+    margin-right: 2%;
+}
+.user h5{
+    color: aqua;
+    margin-top: 0%;
+    display: block;
+
+}
+
+.container2{
+    border-radius: 5px;
+    background-color: #031d23;
+    display: inline-block;
+    width: 100%;
+    margin-top: 1vh;
+    background-color: violet;
+
+}
+
+.cmnt{
+    padding: 0 5vh 0 5vh;
+    box-sizing: border-box;
+    text-align: justify;
+    display: inline-block;
+    width: 100%;
+    background-color: darkgreen;
+}
+
+.container2 h5{
+    margin-right: 4%;
+    margin-bottom: 0;
+    color: rgb(35, 40, 27);
+}
+
+.close-button{
+    color: rgb(141, 79, 79);
+    background-color: aliceblue;
+    display: inline-block;
+    text-align: right;
+    float: right;
+}

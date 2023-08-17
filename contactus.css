@@ -1,0 +1,190 @@
+nav{
+    background-color: black;
+    color: azure;
+    width: 100%;
+    padding: 1vh;
+    box-sizing: border-box;
+    position: sticky;
+    top:0; 
+    z-index: 1000;
+    font-size: large;
+    display: block;
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.search{
+    position: relative;
+    border-radius: 50px;
+    border: 2px solid white;
+    width: 600px;
+    padding: 1.5vh;
+    box-sizing: border-box;
+}
+.search i{
+    position: absolute;
+    top: 25%;
+    right: 2.5%;
+}
+
+#searchbar{
+    direction: rtl;
+    background-color: transparent;
+    color: aqua;
+    margin-right: 5%;
+    border: none;
+    outline: none;
+}
+
+.container{
+    /* width: 100%; */
+    /* display: flex; */
+}
+
+.ravesh{
+    float: right;
+    width: 50%;
+    background-color: rgb(198, 161, 234);
+    padding: 6vh 6vh 6vh 6vh;
+    box-sizing: border-box;
+}
+
+.box{
+    display: inline-block;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.stuff{
+    float: left;
+    margin-right: 2vh;
+
+}
+.icon{
+    float: right;
+    font-size: 32px;
+}
+
+.left{
+    float: left;
+    width: 50%;
+    padding: 6vh 20vh 6vh 20vh;
+    background-color: beige;
+    box-sizing: border-box;
+}
+.message{
+    /* margin: 5vh auto; */
+    background-color: burlywood;
+    width: 100%;
+}
+label{
+    display: block;
+    margin-top: 2vh;
+}
+input:not(#searchbar) {
+    width: 100%;
+    padding: 2vh;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+    margin-top: 1vh;
+    display: block;
+}
+textarea{
+    height: 200px;
+    width: 100%;
+    padding: 2vh;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+    margin-top: 1vh;
+}
+/* input[type=text] {
+    display: inline-block;
+} */
+#name, #email{
+    width: 100%;
+    display: inline-block;
+
+}
+
+.inputs{
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+}
+
+
+footer{
+    width: 100%;
+    background-color: beige;
+    float: left;
+}
+.contain{
+    width: 90%;
+    margin: auto;
+    background-color: darkseagreen;
+    display: flex;
+    justify-content: space-around;
+    padding: 3vh;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+
+}
+.line{
+    border-left: 1px solid black;
+    height: 350px;
+}
+.bottom{
+    width: 90%;
+    margin: auto;
+    padding: 3vh;
+    box-sizing: border-box;
+    background-color: tomato;
+    height: 100px;
+}
+.hearts{
+    background-color: bisque;
+    float: left;
+    display: block;
+}
+.icons{
+    background-color: rgb(211, 205, 197);
+    float: right;
+    font-size: 32px;
+}
+.backbtn{
+    border: 0;
+    width: 7%;
+    position:fixed ;
+    bottom: 10px;
+    right: 0px;
+    background-color:transparent;
+    cursor: pointer;
+    color: aqua;
+}
+
+@media screen and (min-width:300px) and (max-width:575px) {
+     
+}
+
+@media screen and (min-width:300px) and (max-width: 800px) {
+    nav{
+        width: 100px;
+        /* padding: 1vh; */
+        /* box-sizing: border-box; */
+        position: fixed;
+        top:0; 
+        left: 0;
+        z-index: 100;
+        /* font-size: large; */
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+  }

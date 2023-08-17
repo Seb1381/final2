@@ -1,0 +1,330 @@
+.container{
+    width: 100%;
+    color: orange;
+    /* float: right; */
+    /* margin: 7vh auto; */
+    /* background-color: rgba(64, 56, 69, 0.1); */
+    /* height: 100%; */
+    /* display: flex; */
+}
+.box{
+    width: 50%;
+    float: right;
+    background-color: rgba(139, 50, 195, 0.1);
+    /* height: 100vh; */
+    /* justify-content: flex-end; */
+}
+#box{
+    margin-top: 2.5vh;
+}
+
+.container form{
+    width: 60%;
+    padding: 4vh;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: right;
+    direction: rtl;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: rgba(64, 56, 69, 0.6); */
+    border :1px solid black;
+    /* float: right; */
+    margin: 10vh auto;
+    margin-top: 3vh;
+}
+
+.container form a:not(#btn){
+    font-size: 14px;
+    font-weight: bolder;
+    cursor: pointer;
+    color: lime;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 0.5vh;
+    margin-right: 5%;
+    display: block;
+    border: none;
+}
+
+.container form label{
+    color: orange;
+    font-size: 16px;
+    /* margin-bottom: 2vh; */
+    display: block;
+    /* margin-right: 3%; */
+    /* margin-top: 1vh; */
+}
+
+fieldset{
+    border :1px solid black;
+    border-radius: 5px;
+    width: 93%;
+    /* position: absolute; left: 0; right: 0; */
+    margin: 2vh auto;
+}
+
+.container form input{
+    width: 90%;
+    /* padding: 1.5vh; */
+    box-sizing: border-box;
+    /* margin: 1vh auto; */
+    /* margin-bottom: 0.5vh; */
+    display: inline-block;
+    /* text-align: left; */
+    /* border :1px solid black;
+    border-radius: 10px; */
+    background-color: transparent;
+    /* height: 100%; */
+    outline: none;
+    border: none;
+    
+ }
+ 
+ .container form input:focus{
+    background-color: none;
+    border: none;
+    outline: none;
+ }
+
+ button{
+    margin-top: 2vh;
+    padding: 2vh;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 100%;
+    /* margin-right: 5%; */
+    margin-bottom: 0.5vh;
+    display: inline-block;
+    /* background-color: ghostwhite; */
+    border: 1px solid black;
+    /* text-align: right; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ button:hover{
+    background-color: rgb(197, 197, 197);
+ }
+ 
+ .container form input[type="checkbox"]{
+    width: 30px;
+    height: 20px;
+    display: inline-block;  
+    vertical-align: middle;
+    margin-left: 0%;
+    cursor: pointer;
+ } 
+
+ h1{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .container form ::placeholder{
+    color: rgba(255, 196, 0, 0.963);
+    font-weight: bolder;
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Background_image{
+    background-image: url(bg.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain; 
+}
+
+#tel::placeholder{
+    text-align: left;
+}
+
+#btn{
+    background-color: violet;
+    margin-top: 2vh;
+    padding: 2vh;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 100%;
+    /* margin-bottom: 0.5vh; */
+    display: inline-block;
+    border: 1px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+#btn:hover{
+    background-color: rgb(133, 67, 133);
+}
+
+.other{
+    text-align: center;
+    display: inline-flex;
+}
+
+.popup{
+    /* height: 300px; */
+    /* width: 200px; */
+    background-color: rgb(236, 168, 202);
+    position: absolute;
+    top: 20vh;
+    left: 35%;
+    margin: auto;
+    padding: 2vh ;
+    box-sizing: border-box;
+    text-align: right;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    visibility: hidden;
+    border-radius: 10px;
+}
+.inside{
+    /* background-color: rgb(233, 146, 17); */
+    text-align: center;
+}
+.inside i{
+    font-size: 24px;   
+}
+.stuff{
+    /* background-color: antiquewhite; */
+    float: right;
+    width: 50%;
+}
+.info{
+    /* background-color: antiquewhite; */
+    float: right;
+    width: 50%;
+    /* height: 200px; */
+    text-align: left;
+}
+.btns{
+    display: flex;
+    /* background-color: bisque; */
+    float: right;
+    margin-top: 2vh;
+    width: 100%;
+    justify-content: space-between;
+
+}
+#yes{
+    /* float: right; */
+    width: 40%;
+    padding: 1.5vh ;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    font-size: large;
+    cursor: pointer;
+}
+#no{
+    /* float: left; */
+    width: 40%;
+    padding: 1.5vh ;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    font-size: large;
+    cursor: pointer;
+}
+#yes:hover, #no:hover{
+    background-color: aquamarine;
+}
+
+
+@media screen and (min-width:300px) and (max-width:319px){
+    .Background_image{
+        background-image: none; 
+    }
+
+    .box{
+        width: 100%;
+    }
+
+    .container form{
+        width: 100%;
+    }
+
+    .popup{
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+
+}
+
+@media screen and (min-width:320px) and (max-width:425px){
+    .Background_image{
+        background-image: none; 
+    }
+
+    .box{
+        width: 100%;
+    }
+
+    .container form{
+        width: 100%;
+    }
+
+    .popup{
+        width: 90%;
+        left: 0;
+        right: 0;
+    }
+
+}
+@media screen and (min-width:425px) and (max-width:767px){
+    .Background_image{
+        background-image: none; 
+    }
+
+    .box{
+        width: 100%;
+    }
+
+    .container form{
+        width: 80%;
+    }
+
+    .popup{
+        width: 80%;
+        margin: auto;
+        left: 0;
+        right: 0;
+    }
+}
+
+
+@media screen and (min-width:768px) and (max-width:900px){
+    .Background_image{
+        background-image: none; 
+    }
+    .box{
+        width: 100%;
+    }
+    .container form{
+        width: 60%;
+    }
+    fieldset{
+        width: 80%;
+    }
+    button{
+        width: 86%;
+        margin-right: 7%;
+    }
+    #btn{
+        width: 86%;
+        margin-right: 7%;
+    }
+    .popup{
+        width: 80%;
+        margin: auto;
+        left: 0;
+        right: 0;
+    }
+    
+}

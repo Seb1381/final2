@@ -1,0 +1,563 @@
+body{
+    /* background-color: rgb(248, 242, 242); */
+    height: auto;
+    /* width: fit-content; */
+}
+
+nav{
+    background-color: black;
+    color: azure;
+    width: 100%;
+    padding: 1vh;
+    box-sizing: border-box;
+    position: sticky;
+    top:0; 
+    /* display: flex;
+    justify-content: space-around; */
+    z-index: 1000;
+    font-size: large;
+    /* margin-top: 13vh; */
+    display: block; 
+    /* overflow: hidden; */
+    /* transition: max-height 0.1s ease-out; */
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+}
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+.search{
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-radius: 50px;
+    border: 2px solid white;
+    width: 600px;
+    padding: 1.5vh;
+    box-sizing: border-box;
+}
+.search i{
+    position: absolute;
+    top: 25%;
+    right: 2.5%;
+}
+
+#searchbar{
+    direction: rtl;
+    background-color: transparent;
+    color: aqua;
+    margin-right: 5%;
+    border: none;
+    outline: none;
+}
+
+.hero{
+    width: 100%;
+    background-color: rgb(134, 123, 110);
+    height: 640vh;
+    /* display: block; */
+    margin-top: 0;
+}
+.name{
+    display: block;
+    width: 100%;
+    background-color: cadetblue;
+    /* height: 50px; */
+    /* margin-top: 20vh; */
+    /* transition: max-height 0.1s ease-out; */
+}
+.bookmarks{
+    display: block;
+    width: 100%;
+    background-color: rgb(101, 11, 185);
+    position: sticky;
+    top: 58px;
+    z-index: 90;
+}
+.mark{
+    background-color: brown;
+    width: 72%;
+    /* padding: 1vh;
+    box-sizing: border-box; */
+    /* height: 100%; */
+    margin: auto;
+}
+.mark a{
+    text-decoration: none;
+}
+.target{
+    background-color: royalblue;
+    display: inline-block;
+    margin-left: 7px;
+}
+.target h3{
+    cursor: pointer;
+}
+.name .target{
+    margin-left: 3px;
+}
+#list{
+    width: 500px;
+    background-color: lightgreen;
+    color: black;
+    position: fixed;
+    top:150px;
+    z-index: 1000;
+    right: 32%;
+}
+.animals p{
+    display: inline-block;
+    cursor: pointer;
+}
+
+.container{
+    width: 72%;
+    margin: auto;
+    margin-top: 3vh;
+    background-color: rgb(13, 99, 117);
+    /* z-index: 99998; */
+    display: block;
+}
+.left{
+    width: 24%;
+    float: left;
+    padding: 2vh;
+    box-sizing: border-box;
+    background-color: turquoise;
+    border-radius: 10px;
+    left: 14%;
+    margin-top: 3vh;
+    display: block;
+    position: sticky;
+    top: 210px;
+    margin-bottom: 5vh;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+}  
+.left a{
+    float: left;
+    text-decoration: none;
+}
+.left .countdown{
+    /* float: left; */
+    background-color: #eb6969;
+    display: block;
+    /* width: 20%; */
+    border-radius: 5px;
+    /* padding: 0.01%;
+    box-sizing: border-box; */
+    text-align: center;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1vh 0 1vh;
+    box-sizing: border-box;
+    background-color: #eb6969;
+}
+.sale{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1vh 0 1vh;
+    box-sizing: border-box;
+    background-color: darkgrey;
+}
+.purchase{
+    display: flex;
+    background-color: chartreuse;
+    justify-content: space-between;
+    position: relative;
+}
+.like{
+    float: left;
+    padding: 1vh;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: hotpink;
+    border-radius: 5px;
+    position: relative;
+    width: 20%;
+}
+.like i{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+.ghalb{
+    background-color: black;
+    color: aliceblue;
+    opacity: 0;
+    position: absolute;
+    bottom: 55px;
+    border-radius: 5px;
+}
+.tri{
+    background-color: black;
+    opacity: 0;
+    position: absolute;
+    bottom: 50px;
+    right: 28px;
+    width: 17px;
+    transform: rotateZ(45deg);
+}
+.like:hover{
+    .ghalb, .tri{
+        opacity: 1;
+    }
+}
+#buy{
+    float: right;
+    padding: 1vh;
+    box-sizing: border-box;
+    width: 75%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+#buy i{
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+.right{
+    width: 64%;
+    padding: 1vh;
+    box-sizing: border-box;
+    background-color: turquoise;
+    border-radius: 20px;
+    float: right;
+}
+iframe{
+    margin: auto;
+    border-radius: 20px;
+    width: 100%; 
+    height: 350px;
+}
+
+.mohtava{
+    width: 100%;
+    background-color: bisque;
+}
+.felan{
+    width: 100%;
+    background-color: rgb(116, 111, 105);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 1vh 0 1vh 0;
+    box-sizing: border-box;
+}
+
+.chiz{ 
+    width: 218px;
+    background-color: brown;
+    display: inline-block;
+    text-align: left;
+    margin: 0.5vh 0.5vh;
+}
+.chiz i{
+    float: right;
+}
+.modares{
+    width: 100%;
+    background-color: rgb(193, 227, 24);
+    border-radius: 20px;
+    padding: 3vh ;
+    box-sizing: border-box;
+    display: flex;
+    margin-top: 2vh;
+
+}
+.modares img{
+    float: right;
+    border-radius: 10px;
+    width: 120px;
+    margin-left: 1.5vh ;
+}
+.darbare{
+    float: left;
+    background-color: azure;
+    /* width: 80%; */
+}
+
+.toggle{
+    width: 100%;
+    background-color: coral;
+    direction: rtl;
+}
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 2vh 2vh 0 0;
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    outline: none;
+    /* font-size: 15px; */
+    margin-top: 1vh;
+    border-radius: 5px;
+    text-align: right;
+}
+.collapse{
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 2vh 2vh 0 0;
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    outline: none;
+    /* font-size: 15px; */
+    border-radius: 5px;
+    text-align: right;
+}
+.active,.collapse, .collapsible:hover {
+    background-color: #555;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.2);
+} 
+.content {
+    display: none;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+}
+.content iframe{
+    width: 70%;
+    margin-right: 15%;
+    height: 280px;
+}
+.collapse, .collapsible:after {
+    content: '\02795'; 
+    /* font-size: 13px; */
+    color: white;
+    float: left;
+}
+  
+.active:after {
+    content: "\2796"; 
+}
+
+.yellow{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-right: 2vh;
+    padding-left: 2vh;
+    box-sizing: border-box;
+    margin-top: 2vh;
+    background-color: yellow;
+}
+  
+.mortabet{
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 2vh;
+    background-color: linen;
+}
+.amoozesh{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 1vh ;
+    box-sizing: border-box;
+}
+.dars{
+    background-color: khaki;
+    width: 300px;
+    text-align: right;
+    display: flex;
+    border-radius: 5px;
+    margin: 1vh auto;
+    padding: 1.5vh ;
+    box-sizing: border-box;
+    
+}
+.dars img{
+    width: 90px;
+    float: right;
+}
+.dars p{
+    float: left;
+    margin-right: 3%;
+}
+
+#nazarat{
+    background-color: #eb6969;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+#nazarat:hover {
+    box-shadow: none;
+}
+.nazar{
+    background-color: rgb(27, 62, 92);
+    position: relative;
+}
+.nazar i{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.nazar p{
+   margin-right: 3vh;
+}
+.stars{
+    float: left;
+    margin-left: 2vh;
+}
+
+.comment_section2{
+    width: 100%;
+    background-color: yellow;
+    margin-top: 2vh;
+}
+.response{
+    float: left;
+    background-color: cornflowerblue;
+    margin-bottom: 0;
+    width: 9%;
+}
+.response i{
+    cursor: pointer;
+    font-size: 24px;
+    color: rgb(101, 230, 45);
+    background-color: transparent;
+    display: inline;
+    margin-right: 5%;
+}
+img{
+    border-radius: 100%;
+    height: 48px;
+    float: right;
+    margin-top: 1vh;
+    margin: 2px ;
+}
+.user_profile{
+    display: flex;
+}
+.user{
+    margin-left: 80px;
+    height: 60px;
+}
+.user h4{
+    color: sandybrown;
+    float: left;
+}
+.container2{
+    border-radius: 5px;
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(162, 36, 162);
+}
+.cmnt{
+    padding: 0 5vh 0 5vh;
+    box-sizing: border-box;
+    text-align: justify;
+    display: inline-block;
+    width: 100%;
+    background-color: darkgreen;
+}
+.container2 h5{
+    margin-right: 4%;
+    margin-bottom: 0;
+    color: rgb(35, 40, 27);
+}
+
+.about{
+    width: 100%;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    padding: 0.5vh;
+    box-sizing: border-box;
+    margin-top: 2vh;
+}
+
+footer{
+    width: 100%;
+    background-color: beige;
+    /* float: left; */
+    /* height: 700px; */
+    /* display: block;
+    position: absolute; */
+}
+.contain{
+    width: 90%;
+    margin: auto;
+    background-color: darkseagreen;
+    display: flex;
+    justify-content: space-around;
+    padding: 3vh;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+}
+.foot{
+    
+}
+.line{
+    border-left: 1px solid black;
+    height: 350px;
+    /* margin: auto; */
+}
+.bottom{
+    width: 90%;
+    margin: auto;
+    padding: 3vh;
+    box-sizing: border-box;
+    background-color: tomato;
+    height: 100px;
+}
+.hearts{
+    background-color: bisque;
+    float: left;
+    display: block;
+}
+.icons{
+    background-color: rgb(211, 205, 197);
+    float: right;
+    font-size: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+.backbtn{
+    border: 0;
+    width: 7%;
+    position:fixed ;
+    bottom: 10px;
+    right: 0px;
+    background-color:transparent;
+    cursor: pointer;
+    color: aqua;
+
+}
+@media screen and (min-width:300px) and (max-width: 800px) {
+    nav{
+        width: 100px;
+        /* padding: 1vh; */
+        /* box-sizing: border-box; */
+        position: fixed;
+        top:0; 
+        left: 0;
+        z-index: 100;
+        /* font-size: large; */
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+  }
